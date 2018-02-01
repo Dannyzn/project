@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 42px;" class="loading resetScreen">
+<head>
+    <title>Baca - Tuan Rumah Misterius</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.8, minimum-scale=0.8, maximum-scale=0.8, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<!-- <meta http-equiv="pragma" content="no-cache" /> -->
+	<!-- <meta http-equiv="Cache-Control" content="no-transform"> -->
+	<link rel="shortcut icon" href="http://event.baca.co.id/survival_pub/share-img.jpg" >
+	<!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+	
+
+	<meta name="description" content="Aku berhasil keluar dari rumah misterius ini, sanggupkah kamu melakukan hal yang sama?">
+
+	<!-- 分享到facebook的meta -->
+	<meta property="og:url" content="http://event.baca.co.id/zombie.html" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Tuan Rumah Misterius" />
+	<meta property="og:description" content="Aku berhasil keluar dari rumah misterius ini, sanggupkah kamu melakukan hal yang sama?" />
+	<meta property="og:image" content="http://event.baca.co.id/survival_pub/share-img.jpg"/>
+	<meta property="og:image:type" content="image/jpeg">
+
+	<!-- 分享到twitter的meta -->
+	<meta name="twitter:card" content="gallery">
+	<meta name="twitter:url"  content="http://event.baca.co.id/zombie.html">
+	<meta name="twitter:title" content="Tuan Rumah Misterius">
+	<meta name="twitter:description" itemprop="description" content="Aku berhasil keluar dari rumah misterius ini, sanggupkah kamu melakukan hal yang sama?">
+	<meta name="twitter:image" itemprop="image" content="http://event.baca.co.id/survival_pub/share-img.jpg">
+
+    <style type="text/css">
+    .myloading{position:fixed;top:0px;width:100%;left:0px;height:100%;background:white;z-index:222;text-align:center;}
+    .myloading>img{position:absolute;top:50%;height:14px;width:14px;margin-top:-7px;margin-left:-7px;left:50%;}
+    .hide{display: none;}
+    </style>
+    <script type="text/javascript">
+    	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-110141868-1', 'auto');
+		ga('send', 'pageview');
+		window.ga = ga;
+    </script>
+</head>
+<body class="resetScreen">
+	<div class="myloading" id="pageLoading"><img src="http://event.baca.co.id/survival_pub/5-121204193943.gif"></div>
+	<div class="container">
+		<div id="header-Title" class="header">
+			 <!-- <div class="img-left" id="img_left"><a href="#" class="fa fa-angle-left"></a></div>
+			 <span class="head-word">Garisan Cintamu</span>
+             <div class="img-right"><a href="#" class="fa fa-ellipsis-h"></a></div> -->
+		</div>
+		<div class="main-container" id="pageContainer">
+			<div class="icon">Info</div>
+			<div class="content">
+				<div class="img-flower"></div>
+			</div>
+			<div class="form-item">
+                <form action="">
+					<input class="one" type="text" id="form_name" value="Nama">
+					<input class="two" type="text" id="form_sex" value="Jenis Kelamin">
+					<input class="three" type="text" id="form_birth" value="Tanggal Lahir">
+					<input class="four" type="text" id="form_phone" value="No Handphone">
+					<input class="five" id="submit" type="submit" value="play">
+				</form>
+			</div>
+		</div>
+		<div class="modal_containers">
+			  <div class="modal " id="modal_ysgznr">
+				  <div class="game-title">
+					  <span>HubungKan Garis</span>
+				  </div>
+				  <canvas class="game1" id="myCanvas" width="300px" height="300px">	  
+				  </canvas>  
+				  <!-- <canvas class="game2" id="lowCanvas" width="300px" height="300px">	  
+				  </canvas>  -->
+				  <div class="game-word">
+					  <span>Yuhungkan titil-titik di atas agar<br>
+					  membentuk sebuah gambar dari kisah cinta
+					  kamu!</span>
+				  </div>
+			  </div> 
+			  <div class="modal hide" id="modal_jiangshi">
+					<div class="game-title">
+						<span>Result Title</span>
+					</div>
+					<canvas class="game1" id="Canvas" width="300px" height="300px">	  
+					</canvas>  
+					<div class="game-word">
+						<span>This is Photoshop's version of Lorem lpsum.
+						Proin gravida nibh velit auctor aliquet.
+						Aenean sollicitudin, lorem quis bibendum
+						auctor,nisi eilt consequat ipsum.</span>
+					</div>
+			  </div> 
+			  <div class="modal hide" id="modal_sunjiang">
+				<div class="game-title">
+					<span>Syarat & Ketentuan</span>
+				</div>
+				<div class="word">
+					<span>
+					This is Photoshop's version of Lorem lpsum.
+					Proin gravida nibh velit auctor aliquet.
+					Aenean sollicitudin, lorem quis bibendum
+					auctor,nisi eilt consequat ipsum,nec sagittis
+					sem nibh id eilt. Duis sed odio sit amet nibh
+					vulputate cursus a sit amet mauris. Morbi
+					accumsan ipsum velit. Nam cec tellus a odio
+					tincidunt auctor a ornare odio. Sed non
+					mauris vitae erat consequat auctor eu in elit.
+					Class aptent taciti sociosqu ad litora
+					torquent per conubia nostra, per inceptos
+					himenaeos. Mauris in erat justo. Nullam acurna
+					eu felis dapibus condimentum sit amet a augue.
+					Sed ut imperdiet nisi. Proin condimentum fermentum
+					nunc. Etiam pharetra, erat sed
+				    
+				</span>
+				</div>
+				<div class="Kem">
+					<input type="submit" class="kembilc" value="Kembali">
+				</div>
+		      </div> 
+		  </div> 
+		</div>
+	</div>
+</body>
+</html>
